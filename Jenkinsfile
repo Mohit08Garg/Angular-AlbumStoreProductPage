@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Install node packages') {
             steps {
-                sh 'npm install'
+                sh 'java -version'
             }
         }
     }
